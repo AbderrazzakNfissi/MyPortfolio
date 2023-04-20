@@ -25,10 +25,10 @@ let header = $(`
   <ul class="navbar-nav ml-auto" id = "navbar-content">
   <li class="nav-item nav-item-hover"><a class="nav-link" href="index.html">Accueil</a></li>
   <li class="nav-item nav-item-hover"><a class="nav-link" href="experience.html">Expérience</a></li>
-  <li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projets</a></li>
-  <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Recherche</a></li>
+  <!--<li class="nav-item nav-item-hover"><a class="nav-link" href="projects.html">Projets</a></li>-->
+  <li class="nav-item nav-item-hover"><a class="nav-link" href="research.html">Projets</a></li>
   <li class="nav-item nav-item-hover"><a class="nav-link" href="education.html">Formation</a></li>
-  <li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li>
+  <!--<li class="nav-item nav-item-hover"><a class="nav-link" href="https://hashnode.com/" target="_blank">Blogs</a></li>-->
    <li class="nav-item">
    <input type="checkbox" id="dark_toggler" class="dark_toggler" aria-label="Toggle Light Mode" onclick="toggle_light_mode()" checked>
    </li>
@@ -159,7 +159,6 @@ let footer = $(`
 
     <div class="rounded-social-buttons tag">
     
-
     <a class="social-button linkedin" href="https://www.linkedin.com/in/abderrazzak-nfissi-4a7844201/" target="_blank" >
     <!-- svg code for linkedin icon -->
       <svg class="linkedin-icon-footer" xmlns="http://www.w3.org/2000/svg" width="35" viewBox="0 0 24 24" fill="#0e76a8"

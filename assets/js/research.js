@@ -4,20 +4,26 @@ const researchTable = document.querySelector(".main");
 
 const research = [
   {
-    title: "A Batch Normalized Inference Network Keeps the KL Vanishing Away",
+    title: "Projet de fin de deuxième année - Conception et développement d'un système de gestion hospitalière (Hospital Management System)",
     authors:
-      "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu",
+      "Outils : Spring Boot, Angular, Hibernate, MYSQL, git",
     conferences:
-      "The 58th Annual Meeting of the Association for Computational Linguistics",
-    researchYr: 2020,
+      "",
+    researchYr: 2023,
     citebox: "popup1",
-    image: "assets/images/research-page/inteferenceNetwork.png",
+    image: "https://media.licdn.com/dms/image/C5612AQHXpElnKlgFTA/article-cover_image-shrink_600_2000/0/1631271495780?e=2147483647&v=beta&t=G-v2giaPyk2MRBprIyIvJ5voiKmuq89bEH9F-MhPYak",
     citation: {
       vancouver:
         "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020.",
     },
     abstract:
-      "This is currently left empty and this can be considered as a dummy data 1",
+      `The Hospital Management System (HMS) is a software solution designed to manage and streamline the day-to-day operations of a hospital. The system automates and digitizes various administrative and clinical tasks, including patient registration, appointment scheduling, medical records management, inventory management, billing, and reporting.
+
+      The HMS provides an efficient and reliable way to manage patient data and medical records, enabling healthcare providers to access and share patient information in real-time. The system also offers features such as electronic prescriptions, automated reminders for medication and follow-up appointments, and secure messaging between patients and doctors.
+      
+      With the help of the HMS, hospitals can improve their operational efficiency, reduce costs, and enhance the quality of patient care. The system's advanced analytics capabilities also enable administrators to monitor key performance indicators, identify trends, and make data-driven decisions to improve overall hospital performance.
+      
+      In summary, the Hospital Management System is an essential tool for hospitals looking to streamline their operations, enhance patient care, and improve overall efficiency.`,
     absbox: "absPopup1",
   },
 
@@ -183,20 +189,13 @@ const fillData = () => {
                             ABSTRACT
                         </button>
                 
-                        <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITE
-                        </button>
                     </div>
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
                             ${abstract}    
                         </div>
                     </div>
-                    <div id="${citebox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
-                        <div class="card-body">
-                            ${citation.vancouver}    
-                        </div>
-                    </div>
+                    
                 </td>
             </tr>`)
   );
