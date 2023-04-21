@@ -6,7 +6,7 @@ const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
     title: "Artificial Intelligence",
-    cardImage: "assets/images/ibmcert.png",
+    cardImage: "assets/images/ibmcert.PNG",
     moocLink: "https://www.coursera.org/browse/data-science",
   },
   
